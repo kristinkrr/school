@@ -1,0 +1,7 @@
+ <form action ="", method = "post">
+                <button name = "logout" onclick = "<?php logout();?>" class="btn btn-link text-white text-left">Log out</button>
+              </form>
+
+              <p class="navbar-brand d-flex align-items-center">
+          <strong>Welcome, <?php echo $_SESSION['name']; ?></strong>
+        </p>
